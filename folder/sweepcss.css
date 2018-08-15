@@ -1,0 +1,146 @@
+.loadGame{
+	font-size: 25px;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 96%;
+	height: 15%;
+	background: #aaaaee;
+}
+
+.saveGame{
+	font-size: 25px;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 96%;
+	height: 15%;
+	background: #aaaaee;
+}
+
+.highscore{
+	font-size: 25px;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 96%;
+	height: 15%;
+	background: #aaaaee;
+}
+
+.top_div {
+	width: 800px;
+	height: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #d4d4f7;
+	overflow: hidden;
+}
+.header_1 {
+	margin-top: 2%;
+	text-align: center;
+	text-shadow: 2px 2px Gray;
+}
+.smaller_div {
+	width:100%;
+	height:4%;
+	margin-left:auto;
+	margin-right:auto;
+	background: #d4d4f7;
+}
+.start_button {
+	margin-top: 2%;
+	background-color: #aaaaee;
+	padding: 20% 31%;
+	font-size: 30px;
+	margin-left: 2%;
+}
+.mainSweeper {
+	float: right;
+	margin-right: 5%;
+	width: 60%;
+	height: 42%;
+	background: #aaaaee;
+}
+.menuButtons {
+	float: left;
+	margin-left: 2%;
+	width: 25%;
+	height: 42%;
+	background: #aaaaee;
+}
+.selections {
+	background-color: #aaaaee;
+	font-size: 15px;
+}
+.console {
+	background: #aaaaee;
+	height: 25%;
+	width: 80%;
+	margin-top: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mineText {
+	color: #aaaaee;
+}
+.textArea {
+	font-size: 15px;
+	font-weight: normal;
+	resize: none;
+	overflow-y: scroll;
+	height: 100%;
+	width: 100%;
+	margin-top:0px;
+}
+.name {
+	background: #aaaaee;
+}
+@media screen and (max-width: 768px) {
+	.highscore {
+		width: 98%;
+	}
+	
+	.top_div {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.menuButtons {
+		padding: 5% 5%;
+		float: none;
+		width: 90%;
+		height: 14%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.console {
+	margin-top: 5%;
+	padding: 5% 5%;
+	height: 25%;
+	width: 80%px;
+	margin-top: 0%;
+	}
+	
+	.mainSweeper {
+	float: none;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 33%;
+	}
+	
+	.selections {
+	float: right;
+	font-size: 12px;
+	}
+	
+	.start_button {
+		float: left;
+		padding: 10% 10%;
+	}
+	.name {
+		float: right;
+	}
+}

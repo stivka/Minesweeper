@@ -1,0 +1,52 @@
+<HTML>
+<head>
+    <script>
+        var s = {
+            rows: 10,
+            cols: 10,
+            width: 30,
+            height: 30,
+            fps: 30
+        };
+
+        var c;
+
+        window.onload = function(){
+            var canvas = document.getElementById("gCanvas");
+            c = canvas.getContext("2d");
+
+            init();
+        }
+
+        var box;
+
+        function init(){
+
+            var box = new Image();
+            box.src = "box.png";
+
+            drawCanvas();
+        }
+
+        function drawCanvas(){
+
+            c.clearRect(0,0,400,400);
+
+            c.drawImage(box, 10, 10);
+            c.drawImage(box, 10, 10);
+        }
+    </script>
+    </head>
+
+    <body>
+        <div id="controls">
+
+        </div>
+        <div id="gameCanvas">
+            <canvas id="gCanvas" width="400" heigth="400"></canvas>
+        </div>
+
+    </body>
+<canvas id="cCanvas" width="400" height="80"></canvas>
+
+</HTML>

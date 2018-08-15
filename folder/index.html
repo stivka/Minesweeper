@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" href = "sweepcss.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src = "mineScript.js"></script>
+	</head>
+	<body>
+		<div class = "top_div">
+			<div class = "smaller_div">
+				<h1 class = "header_1">Minesweeper</h1>
+			</div>
+			<div class = "menuButtons">
+				<button type = "button"; class = "start_button"; onclick = "gameStart()">Start</button>
+				<br>
+				<br>
+				<form>
+					&ensp;Select table:
+					<select style = "width: 80px" class="selections" id = "selector">
+						<option value = 6>6 x 6</option>
+						<option value = 9>9 x 9</option>
+						<option value = 16>16 x 16</option>
+					</select>
+				</form>
+				<br>
+				&ensp;Number of Bombs:<input type = "number" id = "bombs" style="width: 35px" class="selections">
+				<br>
+				<br>
+				&ensp;Name:<input type = "text" id = "name" style="width: 116px" class="name" maxlength="13">
+				<button type = "button";id = "result"; class = "highscore"; onclick = "highScoreClick()">Results</button>
+				<button type = "button";id = "save"; class = "saveGame"; onclick = "saveGame()">Save Game</button>
+				<button type = "button";id = "load"; class = "loadGame"; onclick = "loadGame()">Load Game</button>
+			</div>
+			<div class = "mainSweeper" id="board">
+			</div>
+			<div class = "console">
+				<textarea rows = "15" id = "textarea" class = "textArea" readonly>
+				</textarea>
+			</div>
+		</div>
+	</body>
+</html>

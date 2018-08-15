@@ -1,0 +1,54 @@
+#setupDiv {
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#mainDiv {
+    border: solid 5px purple;
+    background-color: seagreen;
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+#boardDiv {
+    width: auto;
+    height: auto;
+}
+
+.boardSquare {
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+}
+
+.boardSquareClicked {
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
+
+#startButton {
+}
+
+#textfieldNumberOfBombs {
+    size: 4px;
+}
+
+#infoDiv {
+    text-align: center;
+}
+
+.resrow {
+    color: yellowgreen;
+    text-align: center;
+}

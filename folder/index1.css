@@ -1,0 +1,58 @@
+.top_div {
+	width: 800px;
+	height: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #d4d4f7;
+	overflow: hidden;
+}
+
+.smallerDiv {
+	width: 90%;
+	height: 100%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	background: #aaaaee;
+}
+
+.nameInput {
+	margin-left: 1%;
+	height: 2.5%;
+}
+
+.back {
+	font-size: 15px;
+	margin-left: 12%;
+	margin-right:5%;
+	width: 15%;
+	height: 3%;
+	background-color: #aaaaee;
+}
+
+.search {
+	font-size: 15px;
+	margin-left: 7%;
+	width: 15%;
+	height: 3%;
+	background-color: #aaaaee;
+}
+
+.header_1 {
+	margin-top: 2%;
+	text-align: center;
+	text-shadow: 2px 2px Gray;
+}
+
+
+@media screen and (max-width: 768px) {
+	.top_div {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.search {
+		margin-left: 12%;
+	}
+}

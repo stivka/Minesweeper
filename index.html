@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div id='mainDiv'>
+    <div id="setupDiv">
+        <div class="center">
+            <select id="selectedBoardLength">
+                <option value="6">6X6</option>
+                <option value="9">9X9</option>
+                <option value="16">16X16</option>
+            </select>
+        </div>
+        <div class="center" id="bombInputDiv">
+            <input id="textfieldNumberOfBombs" name="number" type="number" placeholder="Sisesta pommide arv"/>
+        </div>
+        <div class="center" id="nameInputDiv">
+            <input id="textfieldName" name="textfield" type="text" placeholder="Sisesta oma nimi"/>
+        </div>
+        <div class="center" id="startDiv">
+            <button id="startButton" onclick="loadBoard()">Alusta</button>
+        </div>
+        <div class="center" id="scoreButtonDiv">
+            <button id="scoreButton" onclick="showResults()">Autahvel</button>
+        </div>
+        <div class="center" id="saveButtonDiv">
+            <button id="saveButton" onclick="saveGame()">Salvesta</button>
+        </div>
+        <div class="center" id="loadButtonDiv">
+            <button id="loadButton" onclick="loadGame()">Lae</button>
+        </div>
+        <div class="center" id="boardDiv"></div>
+        <div id='infoDiv'></div>
+        <div id="tulem"></div>
+    </div>
+</div>
+</body>
+</html>
